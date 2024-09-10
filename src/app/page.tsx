@@ -283,7 +283,7 @@ export default function Home() {
         <h1 className=" text-center font-bold text-3xl md:text-6xl text-white">
           Visit My Skill & Hire Me
         </h1>
-        <div className="grid grid-cols-2 md:grid-cols-8 gap-4 my-12">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-4 my-12">
           <div className="bg-primary m-1 px-12  border rounded border-gray-800 hover:bg-secondary hover:scale-90 ease-out duration-500 hover:opacity-90">
             <Image
               src="/images/html.png"
@@ -334,15 +334,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="bg-primary m-1 px-12  border rounded border-gray-800 hover:bg-secondary hover:scale-90 ease-out duration-500 hover:opacity-90">
-            <Image
-              src="/images/jquery.png"
-              width={60}
-              height={60}
-              alt="Picture of the author"
-              className="mx-auto py-5 rounded"
-            />
-          </div>
+         
 
           <div className="bg-primary m-1 px-12  border rounded border-gray-800 hover:bg-secondary hover:scale-90 ease-out duration-500 hover:opacity-90">
             <Image
@@ -374,16 +366,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="bg-primary m-1 px-12  border rounded border-gray-800 hover:bg-secondary hover:scale-90 ease-out duration-500 hover:opacity-90">
-            <Image
-              src="/images/vuejs1.png"
-              width={60}
-              height={60}
-              alt="Picture of the author"
-              className="mx-auto py-5 rounded"
-            />
-          </div>
-
+           
           <div className="bg-primary m-1 px-12  border rounded border-gray-800 hover:bg-secondary hover:scale-90 ease-out duration-500 hover:opacity-90">
             <Image
               src="/images/nodejs.png"
@@ -434,15 +417,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="bg-primary m-1 px-12  border rounded border-gray-800 hover:bg-secondary hover:scale-90 ease-out duration-500 hover:opacity-90">
-            <Image
-              src="/images/9.png"
-              width={60}
-              height={60}
-              alt="Picture of the author"
-              className="mx-auto py-5 rounded"
-            />
-          </div>
+          
           <div className="bg-primary m-1 px-12  border rounded border-gray-800 hover:bg-secondary hover:scale-90 ease-out duration-500 hover:opacity-90">
             <Image
               src="/images/10.png"
@@ -472,25 +447,7 @@ export default function Home() {
               className="mx-auto py-5 rounded"
             />
           </div>
-          <div className="bg-primary m-1 px-12  border rounded border-gray-800 hover:bg-secondary hover:scale-90 ease-out duration-500 hover:opacity-90">
-            <Image
-              src="/images/16.png"
-              width={60}
-              height={60}
-              alt="Picture of the author"
-              className="mx-auto py-5 rounded"
-            />
-          </div>
-
-          <div className="bg-primary m-1 px-12  border rounded border-gray-800 hover:bg-secondary hover:scale-90 ease-out duration-500 hover:opacity-90">
-            <Image
-              src="/images/dt3.png"
-              width={60}
-              height={60}
-              alt="Picture of the author"
-              className="mx-auto py-5 rounded"
-            />
-          </div>
+          
         </div>
       </section>
       {/* work */}
@@ -559,6 +516,7 @@ export default function Home() {
           ></Work>
         </div>
       </section>
+
       {/* resume */}
       <section className="my-32 container" id="resume">
         <h4 className=" uppercase text-secondary text-center text-[12px] font-semibold">
@@ -580,18 +538,18 @@ export default function Home() {
                 name_of_institute=" Bachelor of Software Engineering"
                 title="B.Sc in Software Engineering Daffodil International
                     University (DIU)"
-                year="Jan 2017 – Dec 2020"
-                result="CGPA - 3.25 out of 4.00"
+                year="Jan 2020 – Dec 2023"
+                result="CGPA - 3.23 out of 4.00"
               ></Resume>
               <Resume
                 name_of_institute=" Higher Secondary School Certificate"
-                title="Higher Secondary at Darunnazt Siddikiea Kamil Madrasha (DSKM)"
-                year="Jan 2015 – Dec 2016"
+                title="Higher Secondary at Saidpur Govt. College"
+                year="Jan 2016 – Dec 2018"
                 result="GPA - 4.96 out of 5.00"
               ></Resume>
               <Resume
                 name_of_institute="Secondary School Certificate"
-                title="Secondary School at Darunnazt Siddikiea Kamil Madrasha (DSKM)"
+                title="Secondary School at Alfaruque Academy"
                 year="Jan 2015 – Dec 2016"
                 result="GPA - 5.00 out of 5.00"
               ></Resume>
