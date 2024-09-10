@@ -110,7 +110,7 @@ export default function Home() {
               </span>
             </h2>
             <h1 className="text-4xl md:text-6xl 2xl:text-8xl font-bold my-2">
-              Bokhtiar Toshar
+            Abdul Malek Sarkar
             </h1>
             <h2 className="text-xl md:text-4xl font-semibold">
               Software engineer
@@ -118,8 +118,8 @@ export default function Home() {
 
             {/* about me */}
             <p className="my-12 text-xl text-justify md:mr-20 text-gray-400">
-              Bokhtiar Toshar here, Im a passionate software engineer. I use
-              Laravel, Node, React, Vue, and Nextjs, with a MongoDB and MySql
+            Abdul Malek Sarkar here, Im a passionate software engineer. I use
+              Laravel, Node, Express, React, and Nextjs, with a MongoDB and MySql
               database. I wish to continue learning about programming languages.
             </p>
             {/* find on me */}
@@ -129,7 +129,7 @@ export default function Home() {
                 {/* facebook */}
                 <a
                   className="bg-white  rounded-full"
-                  href="https://www.facebook.com/bokhtiar172/"
+                  href="https://www.facebook.com/abdulmalek.swe.585/"
                   target="blank"
                 >
                   <Image
@@ -144,7 +144,7 @@ export default function Home() {
                 {/* insta */}
                 <a
                   className="bg-white rounded-full "
-                  href="https://www.instagram.com/bokhtiar_tushar/"
+                  href="https://www.instagram.com/sarkar.abdulmalek/"
                   target="blank"
                 >
                   <Image
@@ -170,7 +170,7 @@ export default function Home() {
                 {/* github */}
                 <a
                   className="bg-white rounded-full"
-                  href="https://github.com/Bokhtiar"
+                  href="https://github.com/AbdulMalek-swe"
                   target="blank"
                 >
                   <Image
@@ -185,7 +185,7 @@ export default function Home() {
                 {/* facebook */}
                 <a
                   className=" bg-white rounded-full"
-                  href="https://www.linkedin.com/in/bokhtiarswe/"
+                  href="https://www.linkedin.com/in/abdul-malek-sarkar-3053271b2/"
                   target="blank"
                 >
                   <Image
@@ -202,7 +202,7 @@ export default function Home() {
               <div className="flex items-center gap-4 md:gap-8 my-12">
                 {/* experiance */}
                 <p>
-                  <span className="font-semibold text-3xl">2.5+</span>
+                  <span className="font-semibold text-3xl">1.5+</span>
                   <br />
                   <span className=" uppercase text-gray-400 text-[10px] md:text-[12px]">
                     year of experiance
@@ -210,7 +210,7 @@ export default function Home() {
                 </p>
                 {/* client */}
                 <p>
-                  <span className="font-semibold text-3xl">27+</span>
+                  <span className="font-semibold text-3xl">10+</span>
                   <br />
                   <span className=" uppercase text-gray-400 text-[10px] md:text-[12px]">
                     Global Client work
@@ -218,7 +218,7 @@ export default function Home() {
                 </p>
                 {/* Award */}
                 <p>
-                  <span className="font-semibold text-3xl">9+</span>
+                  <span className="font-semibold text-3xl">3+</span>
                   <br />
                   <span className=" uppercase text-gray-400 text-[10px] md:text-[12px]">
                     Awards win
@@ -230,7 +230,7 @@ export default function Home() {
           {/* right side content */}
           <div className="md:col-span-1">
             <Image
-              src="/images/bokhtiar2.1.png"
+              src="/my.jpeg"
               width={450}
               height={250}
               alt="Picture of the author"
