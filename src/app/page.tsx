@@ -539,19 +539,19 @@ export default function Home() {
                 title="B.Sc in Software Engineering Daffodil International
                     University (DIU)"
                 year="Jan 2020 – Dec 2023"
-                result="CGPA - 3.23 out of 4.00"
+                result="CGPA - 3.33 out of 4.00"
               ></Resume>
               <Resume
                 name_of_institute=" Higher Secondary School Certificate"
                 title="Higher Secondary at Saidpur Govt. College"
                 year="Jan 2016 – Dec 2018"
-                result="GPA - 4.96 out of 5.00"
+                result="GPA - 4.50 out of 5.00"
               ></Resume>
               <Resume
                 name_of_institute="Secondary School Certificate"
                 title="Secondary School at Alfaruque Academy"
                 year="Jan 2015 – Dec 2016"
-                result="GPA - 5.00 out of 5.00"
+                result="GPA - 4.67 out of 5.00"
               ></Resume>
             </ol>
           </div>
